@@ -1,0 +1,45 @@
+@font-face
+{
+	font-family: 'Pacifico';
+	src: url('Pacifico.ttf');
+	
+}
+
+@font-face
+{
+	font-family: 'Neucha';
+	src: url('neucha.otf');
+}
+
+img
+{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+  	border-radius: 25px;
+	border: 6px #6d071a inset;
+	box-shadow: 6px 6px 6px 6px black;
+}
+
+h1
+{
+	color :#5f021f;
+	text-align: center;
+	font-family: 'Pacifico', sans-serif;
+	font-size: 60px;
+}
+
+p
+{
+
+	text-align: center;
+	font-family: 'Neucha', sans-serif;
+	font-size: 25px;
+}
+
+.bouton
+{
+	text-align : center;
+	font-family: 'Neucha', sans-serif;
+}
