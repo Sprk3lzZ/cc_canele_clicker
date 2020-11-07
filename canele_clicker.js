@@ -32,3 +32,8 @@ function upgrade(){
 break;
 }
 }
+
+function musique(){
+   let audio = new Audio('saloon.mp3');
+   audio.play();
+}
