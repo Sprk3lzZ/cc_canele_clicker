@@ -11,6 +11,13 @@
 	src: url('neucha.otf');
 }
 
+body
+{
+	background: url("https://thumbs.gfycat.com/AdoredWindingIberianbarbel-max-1mb.gif");
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
 img
 {
 	display: block;
@@ -27,7 +34,7 @@ h1
 	color :#5f021f;
 	text-align: center;
 	font-family: 'Pacifico', sans-serif;
-	font-size: 60px;
+	font-size: 100px;
 }
 
 p
@@ -42,4 +49,12 @@ p
 {
 	text-align : center;
 	font-family: 'Neucha', sans-serif;
+}
+
+#zero
+{
+	color :#5f021f;
+	text-align: center;
+	font-family: 'Neucha', sans-serif;
+	font-size: 25px;
 }
