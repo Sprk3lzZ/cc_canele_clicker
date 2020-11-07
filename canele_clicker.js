@@ -14,20 +14,20 @@ function upgrade(){
       case 1:
       if (x>=25){
          lv++;
-         x-=25;   document.getElementById("zero").innerHTML= x;
+         x-=25;   document.getElementById("zero").innerHTML= x; document.getElementById("prix").innerHTML= 50;     
       }
       break;
       case 2:
       if (x>=50){
          lv=4;
-         x-=50;   document.getElementById("zero").innerHTML= x ;
+         x-=50;   document.getElementById("zero").innerHTML= x;   document.getElementById("prix").innerHTML= 100;
        
    }
    break;
       case 4:
       if (x>=100){
          lv=8;
-         x-=100;   document.getElementById("zero").innerHTML= x ;
+         x-=100;   document.getElementById("zero").innerHTML= x ; document.getElementById("prix").innerHTML= "max";
 }
 break;
 }
